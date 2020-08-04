@@ -1,0 +1,3 @@
+include ':nativetemplate'
+include ':app'
+rootProject.name = "RandH"

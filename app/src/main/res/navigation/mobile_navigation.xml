@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="www.digitalexperts.church_traker.fragments.Home"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_singleviewchurch"
+            app:destination="@id/singleviewchurch" />
+    </fragment>
+    <fragment
+        android:id="@+id/singleviewchurch"
+        android:name="www.digitalexperts.church_traker.fragments.singleviewchurch"
+        android:label="Church details"
+        tools:layout="@layout/fragment_singleviewchurch" />
+    <fragment
+        android:id="@+id/live"
+        android:name="www.digitalexperts.church_traker.fragments.Live"
+        android:label="Live"
+        tools:layout="@layout/fragment_live" >
+        <action
+            android:id="@+id/action_live_to_filez"
+            app:destination="@id/filez" />
+    </fragment>
+    <fragment
+        android:id="@+id/pdfs"
+        android:name="www.digitalexperts.church_traker.fragments.Pdfs"
+        android:label="Pdf and Magazines"
+        tools:layout="@layout/fragment_pdfs">
+        <action
+            android:id="@+id/action_pdfs_to_contents"
+            app:destination="@id/contents" />
+    </fragment>
+    <fragment
+        android:id="@+id/teachings"
+        android:name="www.digitalexperts.church_traker.fragments.Teachings"
+        android:label="Teachings"
+        tools:layout="@layout/fragment_teachings" >
+        <action
+            android:id="@+id/action_teachings_to_wvinfo"
+            app:destination="@id/wvinfo" />
+    </fragment>
+    <fragment
+        android:id="@+id/wvinfo"
+        android:name="www.digitalexperts.church_traker.fragments.wvinfo"
+        android:label="Repentance and Holiness"
+        tools:layout="@layout/fragment_wvinfo" />
+    <fragment
+        android:id="@+id/contents"
+        android:name="www.digitalexperts.church_traker.fragments.Contents"
+        android:label="fragment_contents"
+        tools:layout="@layout/fragment_contents" >
+        <action
+            android:id="@+id/action_contents_to_wvinfo"
+            app:destination="@id/wvinfo" />
+    </fragment>
+    <fragment
+        android:id="@+id/radiostream"
+        android:name="www.digitalexperts.church_traker.fragments.Radiostream"
+        android:label="Live"
+        tools:layout="@layout/fragment_radiostream" />
+    <fragment
+        android:id="@+id/filez"
+        android:name="www.digitalexperts.church_traker.fragments.filez"
+        android:label="Myrecordings"
+        tools:layout="@layout/fragment_filez" />
+    <fragment
+        android:id="@+id/contactz"
+        android:name="www.digitalexperts.church_traker.fragments.contactz"
+        android:label="Contacts"
+        tools:layout="@layout/fragment_contactz" />
+
+</navigation>

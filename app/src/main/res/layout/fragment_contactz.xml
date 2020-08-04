@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.contactz">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:padding="@dimen/_5sdp">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#111"
+            android:textSize="@dimen/_18sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:text="Contacts:"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Prayer Requests Lines"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="#111"
+            android:layout_margin="@dimen/_5sdp"/>
+        <TextView
+            android:id="@+id/p1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0708412344"
+            android:textColor="#3498db"
+            android:textSize="@dimen/_18sdp"
+            android:layout_margin="@dimen/_5sdp"/>
+        <TextView
+            android:id="@+id/p2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0715276091"
+            android:textColor="#3498db"
+            android:textSize="@dimen/_18sdp"
+            android:layout_margin="@dimen/_5sdp"/>
+        <TextView
+            android:id="@+id/p3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0712944578"
+            android:textColor="#3498db"
+            android:textSize="@dimen/_18sdp"
+            android:layout_margin="@dimen/_5sdp"/>
+        <TextView
+            android:id="@+id/p4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0708414399"
+            android:textColor="#3498db"
+            android:textSize="@dimen/_18sdp"
+            android:layout_margin="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email prayer Line"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="#111"
+            android:layout_margin="@dimen/_5sdp"/>
+        <TextView
+            android:id="@+id/e1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="repentoffice@gmail.com "
+            android:textColor="#3498db"
+            android:textSize="@dimen/_18sdp"
+            android:layout_margin="@dimen/_5sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Calling and Contributing Live on Jesus is Lord Radio:"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="#111"
+            android:layout_margin="@dimen/_5sdp"/>
+        <TextView
+            android:id="@+id/r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0774 445851"
+            android:textColor="#3498db"
+            android:textSize="@dimen/_18sdp"
+            android:layout_margin="@dimen/_5sdp"/>
+        <TextView
+            android:id="@+id/r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="‎0774 822266"
+            android:textColor="#3498db"
+            android:textSize="@dimen/_18sdp"
+            android:layout_margin="@dimen/_5sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sms The Radio on-:"
+            android:textColor="#111"
+            android:textSize="@dimen/_15sdp"
+            android:layout_margin="@dimen/_5sdp"/>
+        <TextView
+            android:id="@+id/s1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0727 503030"
+            android:textColor="#3498db"
+            android:textSize="@dimen/_18sdp"
+            android:layout_margin="@dimen/_5sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Air your contribution Via Email:"
+            android:textColor="#111"
+            android:textSize="@dimen/_15sdp"
+            android:layout_margin="@dimen/_5sdp"/>
+        <TextView
+            android:id="@+id/e2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="jesusislord.fmradio@gmail.com "
+            android:textColor="#3498db"
+            android:textSize="@dimen/_18sdp"
+            android:layout_margin="5dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_jsl"
+            android:icon="@drawable/ic_jslrd"
+            android:title="JESUS IS LORD  Radio" />
+        <item
+            android:id="@+id/visitationa"
+            android:icon="@drawable/ic_baseline_bubble_chart_24"
+            android:title="Visitations of the LORD" />
+        <item
+            android:id="@+id/propheciesa"
+            android:icon="@drawable/ic_baseline_offline_bolt_24"
+            android:title="Prophecies and Fulfilments" />
+        <item
+            android:id="@+id/nav_twitter"
+            android:icon="@drawable/twitter"
+            android:title="Twitter Conversations" />
+        <item
+            android:id="@+id/nav_fb"
+            android:icon="@drawable/facebook"
+            android:title="Facebook" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_baseline_contact_support_24"
+            android:title="Contacts " />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share" />
+
+    </group>
+</menu>

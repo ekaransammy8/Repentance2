@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">RandH</string>
+    <string name="title_activity_index">Index</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcomemsg">Prepare the way, The Messiah is coming</string>
+    <string name="abtapp1">-Locate Your Church and Access Contact Details.\n</string>
+    <string name="abtapp2">-Listen To JESUS IS LORD Radio.\n</string>
+    <string name="abtapp3">-Access Teachings By The Mightiest Prophets of the LORD.\n</string>
+    <string name="abtapp4">-Get Access To Healings, Visitations and Prophecies of the LORD.</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+</resources>

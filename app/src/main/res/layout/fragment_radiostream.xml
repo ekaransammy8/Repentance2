@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragments.Radiostream">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_20sdp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentTop="true">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Record"
+                android:background="#fff"
+                app:srcCompat="@drawable/ic_baseline_fiber_manual_record_24"
+                android:id="@+id/rec"
+                android:visibility="gone"
+                android:layout_weight="1"
+                android:layout_gravity="right"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Record"
+                app:srcCompat="@drawable/ic_baseline_fiber_manual_record_24"
+                android:id="@+id/txtrecord"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:paddingLeft="3dp"
+                android:layout_gravity="right"/>
+
+            <ImageButton
+                android:id="@+id/spt"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:visibility="gone"
+                app:srcCompat="@drawable/ic_baseline_stop_24"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"/>
+            <ImageButton
+                android:id="@+id/playnow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_baseline_remove_red_eye_24"
+                android:background="#fff"
+                android:layout_weight="1"
+                android:layout_gravity="left"/>
+
+        </LinearLayout>
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_gravity="center"
+            android:src="@drawable/jslord" />
+
+        <TextView
+            android:id="@+id/sname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_10sdp"
+            android:textSize="@dimen/_20sdp"
+            android:text="Jesus is LORD" />
+
+        <ProgressBar
+            android:id="@+id/pgbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+
+
+
+        <LinearLayout
+            android:id="@+id/media_controller"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingTop="4dip">
+
+                <ImageButton
+                    android:id="@+id/btnPlay"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:background="@drawable/playbtnbackground"
+                    style="@android:style/MediaButton.Play" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/time_current"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingLeft="4dip"
+                    android:paddingTop="4dip"
+                    android:paddingRight="4dip"
+                    android:text="00:00"
+                    android:textColor="#111"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <SeekBar
+                    android:id="@+id/mediacontroller_progress"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="0dip"
+                    android:layout_height="32dip"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/player_end_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingLeft="4dip"
+                    android:paddingTop="4dip"
+                    android:paddingRight="4dip"
+                    android:text="99:99"
+                    android:textColor="#111"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/fullscreen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:layout_marginTop="-7dp"
+                    android:background="@android:color/transparent"
+                    android:paddingLeft="10dip"
+                    android:paddingTop="4dip"
+                    android:paddingRight="4dip"
+                    android:paddingBottom="4dip" />
+
+            </LinearLayout>
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adViewrc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-4814079884774543/6358507489" />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

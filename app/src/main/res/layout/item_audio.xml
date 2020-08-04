@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/audio_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Dadju - Ma fuzzy Style"
+        android:padding="8dp"
+        />
+
+    <com.rygelouv.audiosensei.player.AudioSenseiPlayerView
+        android:layout_below="@+id/audio_name"
+        android:id="@+id/audio_player"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/shareaudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/audio_player"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        app:tint="#111"
+        app:srcCompat="@drawable/ic_baseline_share_24"/>
+    <ImageView
+        android:id="@+id/deleteaudio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/audio_player"
+        android:layout_below="@id/audio_player"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/ic_baseline_delete_24"/>
+
+</RelativeLayout>
